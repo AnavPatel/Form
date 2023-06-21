@@ -4,35 +4,36 @@
         <style>
             body{
                 padding: 20px;
-                font-family: Arial, Helvetica, sans-serif;
+                font-family: Arial;
             }
             input[type="name"],
             input[type="email"],
             textarea{
-                width:100%;
-                border: 1px solid#ccc;
+                padding: 8px;
                 border-radius: 4px;
                 margin-bottom: 10px;
-                padding: 8px;
+                border: 1px solid#ccc;
+                width: 100%;
             }
             input[type="submit"]{
-                padding: 10px 15px;
                 color: white;
                 background-color: green;
-                border: none;
                 border-radius: 4px;
+                border: none;
+                padding: 10px 15px;
             }
         </style>
     </head>
     <body>
         <form action="https://formsubmit.co/anav.patel@outlook.com" method="POST">
             <label>Name:</label>
-            <input type="text">
-            <label>Email</label>
+            <input type="name">
+            <label>Email:</label>
             <input type="email">
-            <label>Message</label>
-            <textarea type="message" rows="4"></textarea>
+            <label>Message:</label>
+            <textarea rows="4"></textarea>
             <input type="submit">
+
         </form>
     </body>
 </html>
